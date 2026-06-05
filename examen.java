@@ -51,7 +51,7 @@ public class examen{
 
     public static String nombres(String [] huertas){
     
-        for (int j = 0;huertas.length; j++){
+        for (int j = 0; j < huertas.length; j++){
         int nom =+ huertas[j]; 
         }
     }
