@@ -1,7 +1,9 @@
 public class examen{
 
     public static void main(String[] args) {
-        
+    
+        String [] huertas ={"A" ,"B","C"};
+
     int [][] Humedad ={
         {40,25,35,30},
         {80,85,78,90},
@@ -13,7 +15,7 @@ public class examen{
    System.out.println( "📡 Analizando lecturas de humedad por sector... ");
    System.out.println("-----------------------------------------------------");
 
-   System.out.println("Invernadero A "+ "(Sectores: "+ operacion(Humedad, 0) );
+   System.out.println("Invernadero "+ nombres(huertas) +  "(Sectores: "+ operacion(Humedad, 0) );
    System.out.println("Promedio Humedad: "+ promedio); 
 
    if (promedio < 35){
@@ -33,7 +35,6 @@ public class examen{
 
     public static int operacion(int [][] matriz, int fila){
     
-
     for(int i=0; i < matriz.length; i++){
     int resultado =+ matriz[fila][i];
 
@@ -46,6 +47,13 @@ public class examen{
 
     return resultado; 
     }
+    }
+
+    public static String nombres(String [] huertas){
+    
+        for (int j = 0;huertas.length; j++){
+        int nom =+ huertas[j]; 
+        }
     }
 
 
