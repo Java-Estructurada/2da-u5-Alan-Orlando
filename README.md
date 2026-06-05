@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=24084899&assignment_repo_type=AssignmentRepo)
 # 🚀 Examen - Unidad 5: Sistema Inteligente de Riego por Sectores 🍓💧
 
 **Objetivo:** 🎯 Resolver un problema de negocio complejo aplicando el principio de modularidad. El estudiante deberá determinar por sí mismo cuántas subrutinas son necesarias, qué parámetros deben recibir (paso por valor o por referencia) y qué valores deben retornar para lograr una solución limpia y eficiente.
